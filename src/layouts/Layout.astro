@@ -1,0 +1,43 @@
+---
+import '../styles/global.css';
+import '../styles/layout.css';
+
+interface Props {
+  title: string;
+  description?: string;
+}
+
+const { title, description = "How Tech Giants of today become companies of yesterday" } = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content={description} />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="generator" content={Astro.generator} />
+    <title>{title} | Tarif's Approach to Tech Giant Deaths</title>
+  </head>
+  <body class="min-h-screen bg-gray-50">
+    <header class="site-header">
+      <nav class="site-nav">
+        <div class="flex justify-between items-center">
+          <a href="/" class="site-logo">Tarif's Tech Analysis</a>
+          <div class="site-tagline">How Tech Giants of today become companies of yesterday</div>
+        </div>
+      </nav>
+    </header>
+    <main class="site-main">
+      <slot />
+    </main>
+    <footer class="site-footer">
+      <div class="footer-content">
+        <p class="text-center text-gray-500">
+          © {new Date().getFullYear()} Tarif's Approach to Tech Giant Deaths. All rights reserved.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
