@@ -116,6 +116,29 @@
   margin-bottom: 2rem;
 }
 
+.prose-paragraph {
+  color: #1f2937;
+  line-height: 1.75;
+  margin-bottom: 1rem;
+}
+
+.video-container {
+  margin: 2rem 0;
+}
+
+.video-container iframe {
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+  margin-bottom: 1rem;
+}
+
+.video-caption {
+  color: #4b5563;
+  font-style: italic;
+  text-align: center;
+  padding: 0 1rem;
+}
+
 .blog-grid {
   display: grid;
   gap: 2rem;

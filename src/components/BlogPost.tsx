@@ -7,6 +7,7 @@ interface BlogPostProps {
 }
 
 export default function BlogPost({ post, onBack }: BlogPostProps) {
+  // Split content by \n and filter out empty strings
   const paragraphs = post.content
     .split('\n')
     .filter(para => para.trim().length > 0);
@@ -30,9 +31,26 @@ export default function BlogPost({ post, onBack }: BlogPostProps) {
       
       <div className="prose">
         {paragraphs.map((paragraph, index) => (
-          <p key={index}>{paragraph.trim()}</p>
+          <p key={index} className="prose-paragraph">
+            {paragraph.trim()}
+          </p>
         ))}
       </div>
+
+      {post.video && (
+        <div className="video-container">
+          <iframe
+            width="100%"
+            height="480"
+            src={post.video.url}
+            title={post.title}
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          ></iframe>
+          <p className="video-caption">{post.video.caption}</p>
+        </div>
+      )}
     </article>
   );
 }

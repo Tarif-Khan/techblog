@@ -4,4 +4,8 @@ export interface BlogPost {
   pubDate: string;
   image: string;
   content: string;
+  video?: {
+    url: string;
+    caption: string;
+  };
 }

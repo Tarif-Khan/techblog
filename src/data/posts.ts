@@ -24,13 +24,17 @@ As these traditional firms struggled to keep up, newer giants like Google, Apple
 
 The decline of these former tech leaders serves as a cautionary tale for today's companies, emphasizing the need for continuous innovation, a strong consumer connection, top tier talent attraction, and a willingness to adapt—even at the cost of disrupting their own successful products—to maintain long term relevance. The lesson is clear: past success doesn't guarantee future relevance, and companies must be willing to cannibalize their own successful products to stay ahead of market changes.
 
-Looking forward, the challenge for today's technology leaders is to avoid the same fate. They must maintain their innovative edge while balancing the needs of shareholders, employees, and customers. The cycle of innovation and disruption continues, and today's giants would do well to remember that maintaining market leadership requires constant reinvention and a willingness to embrace change, even when it threatens existing business models. The story of IBM, Oracle, and Cisco reminds us that in the technology industry, no position of market leadership is ever truly secure.`
+Looking forward, the challenge for today's technology leaders is to avoid the same fate. They must maintain their innovative edge while balancing the needs of shareholders, employees, and customers. The cycle of innovation and disruption continues, and today's giants would do well to remember that maintaining market leadership requires constant reinvention and a willingness to embrace change, even when it threatens existing business models. The story of IBM, Oracle, and Cisco reminds us that in the technology industry, no position of market leadership is ever truly secure.`,
+video: {
+  url: "https://www.youtube.com/embed/6nD1_OVQWhc?start=345",
+  caption: "This video essay walks through how Apple has lost its magic and perfectly shows how IBM has done the same. It drives home the idea of how everything happened for the former giants and how Apple is going through the same process."
+}
   },
   {
     title: "Google's Search Dominance Challenged by OpenAI",
     description: "How artificial intelligence is reshaping the future of search and attracting top talent",
     pubDate: "2024 02 22",
-    image: "https://images.unsplash.com/photo 1526374965328 7f61d4dc18c5?w=800",
+    image: "https://images.unsplash.com/photo-1573804633927-bfcbcd909acd?w=800",
     content: `For over two decades, Google has been synonymous with internet search, becoming so ubiquitous that its name became a verb. However, the emergence of OpenAI and its groundbreaking AI technologies has created the first serious challenge to Google's search dominance, affecting both consumer behavior and the career aspirations of top engineering talent. This shift represents not just a competition between companies, but a fundamental change in how we think about information access and retrieval.
 
 Before diving into the current challenges, it's important to understand the foundation of Google's dominance. The company's revolutionary PageRank algorithm changed how web pages were ranked, created more relevant search results, and set new standards for search quality. Through continuous innovation, regular algorithm updates, integration of new data types, and expansion into related services, Google achieved unprecedented market share with over 90% of global search traffic. This dominance was built on a combination of technical excellence, user friendly design, and an ability to scale that seemed unassailable.
@@ -51,13 +55,17 @@ The future of search and information retrieval is likely to be shaped by this co
 
 The challenge posed by OpenAI to Google's search dominance represents a significant shift in the technology landscape. This competition has already changed how users interact with information and how engineers view career opportunities. The outcome of this battle will likely determine the future of information access and artificial intelligence development. For both companies and the broader tech industry, success will depend on balancing innovation with reliability, user privacy with functionality, and technical advancement with ethical considerations.
 
-As we look to the future, it's clear that the way we interact with information will continue to evolve. The competition between Google and OpenAI is driving rapid advancement in AI technology, creating new possibilities for how we access and process information. This transformation will have lasting implications for users, engineers, and the technology industry as a whole, potentially reshaping our relationship with information in ways we are only beginning to understand.`
+As we look to the future, it's clear that the way we interact with information will continue to evolve. The competition between Google and OpenAI is driving rapid advancement in AI technology, creating new possibilities for how we access and process information. This transformation will have lasting implications for users, engineers, and the technology industry as a whole, potentially reshaping our relationship with information in ways we are only beginning to understand.`,
+video: {
+  url: "https://www.youtube.com/embed/Ag9oTnLK4CU",
+  caption: "Sam Altman talks about how OpenAI is competing with Google and what their plans are."
+}
   },
   {
     title: "Apple's Innovation Crisis: From Revolutionary to Evolutionary",
     description: "How Apple's focus on marketing over innovation affects consumer perception and employee satisfaction",
     pubDate: "2024 02 21",
-    image: "https://images.unsplash.com/photo 1491933382434 500287f9b54b?w=800",
+    image: "https://images.unsplash.com/photo-1491933382434-500287f9b54b?w=800",
     content: `Apple, once the beacon of technological innovation and design excellence, finds itself at a crossroads. From the revolutionary iPhone X to the incremental updates of the iPhone 16, the company's trajectory raises questions about its future direction and its ability to maintain its position as a tech industry leader. This transformation from an innovation driven company to one focused on marketing and global expansion has had far reaching implications for both consumers and employees.
 
 The journey from the iPhone X to the iPhone 16 tells a story of diminishing returns in innovation. While each new release brings technical improvements, the revolutionary leaps that once defined Apple's product launches have become increasingly rare. The iPhone X represented a significant departure from previous models with its edge to edge OLED display, Face ID technology, and gesture based interface. However, subsequent releases have focused on incremental improvements like camera enhancements and processor upgrades. This shift from revolutionary to evolutionary development has begun to affect both consumer excitement and market perception.
@@ -80,6 +88,10 @@ The company's approach to innovation also needs reassessment. While incremental 
 
 The challenge for Apple moving forward will be balancing the need for consistent revenue growth with the imperative to innovate and maintain employee satisfaction. Success in this balancing act will be crucial for determining whether Apple can avoid the fate of previous tech giants who lost their innovative edge and, subsequently, their market leadership position. The company needs to find ways to reinvigorate its innovation pipeline while maintaining the quality and reliability that customers expect.
 
-Looking ahead, Apple's ability to address these challenges will determine its future trajectory. The company needs to rediscover its innovative spirit while addressing employee concerns and maintaining its market position. This will require significant changes in how the company approaches product development, employee compensation, and corporate culture. The outcome of these efforts will likely determine whether Apple can maintain its position as a technology leader or follows the path of previous tech giants who lost their innovative edge.`
+Looking ahead, Apple's ability to address these challenges will determine its future trajectory. The company needs to rediscover its innovative spirit while addressing employee concerns and maintaining its market position. This will require significant changes in how the company approaches product development, employee compensation, and corporate culture. The outcome of these efforts will likely determine whether Apple can maintain its position as a technology leader or follows the path of previous tech giants who lost their innovative edge.`,
+video: {
+  url: "https://www.youtube.com/embed/K1WrHH-WtaA",
+  caption: "Steve jobs explains how replacing the leadership that focuses on product with people focused on business is what leads to a company's stagnation. This is what is happening to Apple now with Tim Cook, as Jobs had described the situation with IBM."
+}
   }
 ];
