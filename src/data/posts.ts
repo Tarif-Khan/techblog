@@ -4,7 +4,7 @@ export const posts: BlogPost[] = [
   {
     title: "The Fall of Legacy Tech Giants: IBM, Oracle, and Cisco",
     description: "How former tech leaders lost their consumer appeal and engineering talent to new giants",
-    pubDate: "2024 02 20",
+    pubDate: "2025 02 01",
     image: "https://images.unsplash.com/photo-1516387938699-a93567ec168e?w=800",
     content: `In the early days of personal computing, three names stood as pillars of technological innovation and corporate success: IBM, Oracle, and Cisco. These companies weren't just market leaders; they were the very embodiment of American technological prowess and innovation. However, as we look at the technology landscape today, these once-mighty giants have been overshadowed by newer players like Google, Apple, and Microsoft.
 
@@ -33,7 +33,7 @@ video: {
   {
     title: "Google's Search Dominance Challenged by OpenAI",
     description: "How artificial intelligence is reshaping the future of search and attracting top talent",
-    pubDate: "2024 02 22",
+    pubDate: "2025 02 02",
     image: "https://images.unsplash.com/photo-1573804633927-bfcbcd909acd?w=800",
     content: `For over two decades, Google has been synonymous with internet search, becoming so ubiquitous that its name became a verb. However, the emergence of OpenAI and its groundbreaking AI technologies has created the first serious challenge to Google's search dominance, affecting both consumer behavior and the career aspirations of top engineering talent. This shift represents not just a competition between companies, but a fundamental change in how we think about information access and retrieval.
 
@@ -64,7 +64,7 @@ video: {
   {
     title: "Apple's Innovation Crisis: From Revolutionary to Evolutionary",
     description: "How Apple's focus on marketing over innovation affects consumer perception and employee satisfaction",
-    pubDate: "2024 02 21",
+    pubDate: "2025 02 03",
     image: "https://images.unsplash.com/photo-1491933382434-500287f9b54b?w=800",
     content: `Apple, once the beacon of technological innovation and design excellence, finds itself at a crossroads. From the revolutionary iPhone X to the incremental updates of the iPhone 16, the company's trajectory raises questions about its future direction and its ability to maintain its position as a tech industry leader. This transformation from an innovation driven company to one focused on marketing and global expansion has had far reaching implications for both consumers and employees.
 
