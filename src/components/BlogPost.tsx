@@ -7,6 +7,11 @@ interface BlogPostProps {
 }
 
 export default function BlogPost({ post, onBack }: BlogPostProps) {
+  // Split content by \n and filter out empty strings
+  const paragraphs = post.content
+    .split('\n')
+    .filter(para => para.trim().length > 0);
+
   return (
     <article className="max-w-4xl mx-auto px-4 py-8">
       <button 
@@ -28,8 +33,10 @@ export default function BlogPost({ post, onBack }: BlogPostProps) {
       <p className="text-xl text-gray-600 mb-8">{post.description}</p>
       
       <div className="prose prose-lg max-w-none">
-        {post.content.split('\n\n').map((paragraph, index) => (
-          <p key={index} className="mb-4">{paragraph}</p>
+        {paragraphs.map((paragraph, index) => (
+          <p key={index} className="mb-6 text-gray-800 leading-relaxed">
+            {paragraph.trim()}
+          </p>
         ))}
       </div>
     </article>
