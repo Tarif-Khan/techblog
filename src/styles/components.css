@@ -1,0 +1,135 @@
+.header {
+  background-color: black;
+  color: white;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.logo-container {
+  background-color: #60a5fa;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-icon {
+  color: white;
+}
+
+.site-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.site-tagline {
+  color: #9ca3af;
+  margin-top: 0.25rem;
+}
+
+.blog-card {
+  background-color: white;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+  overflow: hidden;
+  cursor: pointer;
+  transform: scale(1);
+  transition: transform 0.2s;
+}
+
+.blog-card:hover {
+  transform: scale(1.02);
+}
+
+.blog-card-image {
+  width: 100%;
+  height: 12rem;
+  object-fit: cover;
+}
+
+.blog-card-content {
+  padding: 1.5rem;
+}
+
+.blog-card-date {
+  color: #6b7280;
+  font-size: 0.875rem;
+}
+
+.blog-card-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-top: 0.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.blog-card-description {
+  color: #4b5563;
+}
+
+.blog-post {
+  max-width: 56rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2rem 1rem;
+}
+
+.back-button {
+  display: flex;
+  align-items: center;
+  color: #4b5563;
+  margin-bottom: 2rem;
+}
+
+.back-button:hover {
+  color: #111827;
+}
+
+.back-button-icon {
+  margin-right: 0.5rem;
+}
+
+.blog-post-image {
+  width: 100%;
+  height: 25rem;
+  object-fit: cover;
+  border-radius: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+.blog-post-date {
+  color: #6b7280;
+}
+
+.blog-post-title {
+  font-size: 2.25rem;
+  font-weight: 700;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.blog-post-description {
+  font-size: 1.25rem;
+  color: #4b5563;
+  margin-bottom: 2rem;
+}
+
+.blog-grid {
+  display: grid;
+  gap: 2rem;
+  padding: 3rem 1rem;
+}
+
+@media (min-width: 768px) {
+  .blog-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .blog-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
